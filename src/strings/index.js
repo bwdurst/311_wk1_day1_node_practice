@@ -9,7 +9,7 @@ const pairs = (str) => {
   let newStr = str.split('');
   let pairArr = [];
   for(i = 0; i < str.length; i += 2) {
-    pairArr.push((newStr[i] + newStr[i+1]))
+    pairArr.push(newStr[i] + newStr[i+1])
   }
   return pairArr;
 
